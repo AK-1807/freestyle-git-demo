@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying to staging environment...'
+                echo 'Deploying to staging environment and checking pipeline automation'
             }
         }
     }
